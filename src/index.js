@@ -1,8 +1,10 @@
 const { binarySearchLast } = require('@kmamal/util/array/searching/binary')
 const { concat } = require('@kmamal/util/array/concat')
-const { atIndex } = require('@kmamal/util/array/at')
-const { startIndex } = require('@kmamal/util/array/start-index')
-const { endIndex } = require('@kmamal/util/array/end-index')
+const {
+	atIndex,
+	startIndex,
+	endIndex,
+} = require('@kmamal/util/array/relative-indexing')
 
 class AbstractChunkList {
 	constructor () {
